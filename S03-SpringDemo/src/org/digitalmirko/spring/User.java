@@ -7,7 +7,10 @@ public class User {
 		// Car Insurance instance
 //		Insurance status = new carInsurance();
 		
-		Insurance status = new bikeInsurance();
+		// Bike Insurance instance
+//		Insurance status = new bikeInsurance();
+		
+		Insurance status = new carInsurance();
 		System.out.println(status.showStatus());
 		
 	}
